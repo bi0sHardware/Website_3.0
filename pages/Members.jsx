@@ -137,7 +137,7 @@ function FeaturesBlocks() {
                   data-aos="fade-down"
                 >
                   <img
-                    src="src/images/hariprasad.jpeg"
+                    src={hariprasad}
                     className="h-64 rounded"
                   />
                   <h4 className="text-xl mt-8 font-bold leading-snug tracking-tight mb-1">
@@ -174,7 +174,7 @@ function FeaturesBlocks() {
                 className="relative flex flex-col items-center p-5  rounded shadow-xl border-gray-700 rounded-tl-lg rounded-br-lg border-2"
                 data-aos="fade-down"
               >
-                <img src="src/images/season.jpeg" className="h-64 rounded" />
+                <img src={season} className="h-64 rounded" />
                 <h4 className="text-xl mt-8 font-bold leading-snug tracking-tight mb-1">
                   SEASON CHERIAN
                 </h4>
@@ -185,7 +185,7 @@ function FeaturesBlocks() {
                 className="relative flex flex-col items-center p-5  rounded shadow-xl border-gray-700 rounded-tl-lg rounded-br-lg border-2"
                 data-aos="fade-down"
               >
-                <img src="src/images/viveknj.jpeg" className="h-64 rounded" />
+                <img src={viveknj} className="h-64 rounded" />
                 <h4 className="text-xl mt-8 font-bold leading-snug tracking-tight mb-1">
                   VIVEK N J
                 </h4>
@@ -204,7 +204,7 @@ function FeaturesBlocks() {
                 className="relative flex flex-col items-center p-5  rounded shadow-xl border-gray-700 rounded-tl-lg rounded-br-lg border-2"
                 data-aos="fade-down"
               >
-                <img src="src/images/aswinc.jpeg" className="h-64 rounded" />
+                <img src={aswinc} className="h-64 rounded" />
                 <h4 className="text-xl mt-8 font-bold leading-snug tracking-tight mb-1">
                   ASWIN C
                 </h4>
@@ -215,7 +215,7 @@ function FeaturesBlocks() {
                 className="relative flex flex-col items-center p-5  rounded shadow-xl border-gray-700 rounded-tl-lg rounded-br-lg border-2"
                 data-aos="fade-down"
               >
-                <img src="src/images/athul.jpeg" className="h-64 rounded" />
+                <img src={athul} className="h-64 rounded" />
                 <h4 className="text-xl mt-8 font-bold leading-snug tracking-tight mb-1">
                   ATHUL MENON
                 </h4>
@@ -226,7 +226,7 @@ function FeaturesBlocks() {
                 className="relative flex flex-col items-center p-5  rounded shadow-xl border-gray-700 rounded-tl-lg rounded-br-lg border-2"
                 data-aos="fade-down"
               >
-                <img src="src/images/indraraj.jpeg" className="h-64 rounded" />
+                <img src={indraraj} className="h-64 rounded" />
                 <h4 className="text-xl mt-8 font-bold leading-snug tracking-tight mb-1">
                   INDRARAJ BISWAS
                 </h4>
@@ -236,7 +236,7 @@ function FeaturesBlocks() {
                 className="relative flex flex-col items-center p-5  rounded shadow-xl border-gray-700 rounded-tl-lg rounded-br-lg border-2"
                 data-aos="fade-down"
               >
-                <img src="src/images/nidhin.jpeg" className="h-64 rounded" />
+                <img src={nidhin} className="h-64 rounded" />
                 <h4 className="text-xl mt-8 font-bold leading-snug tracking-tight mb-1">
                   NIDHIN NAUSHAD
                 </h4>
@@ -246,7 +246,7 @@ function FeaturesBlocks() {
                 className="relative flex flex-col items-center p-5  rounded shadow-xl border-gray-700 rounded-tl-lg rounded-br-lg border-2"
                 data-aos="fade-down"
               >
-                <img src="src/images/ranit.jpeg" className="h-64 rounded" />
+                <img src={ranit} className="h-64 rounded" />
                 <h4 className="text-xl mt-8 font-bold leading-snug tracking-tight mb-1">
                   RANIT PRADHAN
                 </h4>
