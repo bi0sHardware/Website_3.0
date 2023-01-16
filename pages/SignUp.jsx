@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import Header from "../partials/Header";
-import Banner from "../partials/Banner";
+import Header from "./src/partials/Header";
+import Banner from "./src/partials/Banner";
 
 function SignUp() {
   return (

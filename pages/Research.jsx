@@ -1,17 +1,17 @@
 import React, { useState, useRef, useEffect } from "react";
-import Transition from "../src/utils/Transition";
+import Transition from "./src/utils/Transition";
 
-import FeaturesBg from "../images/features-bg.png";
-import FeaturesElement from "../images/features-element.png";
+import FeaturesBg from "./images/features-bg.png";
+import FeaturesElement from "./images/features-element.png";
 
-import Header2 from "../src/partials/Header2";
-import HeroHome from "../src/partials/HeroHome";
-import FeaturesHome from "../src/partials/Features";
-import FeaturesBlocks from "../src/partials/FeaturesBlocks";
-import Testimonials from "../src/partials/Testimonials";
-import Newsletter from "../src/partials/Newsletter";
-import Footer from "../src/partials/Footer";
-import Banner from "../src/partials/Banner";
+import Header2 from "./src/partials/Header2";
+import HeroHome from "./src/partials/HeroHome";
+import FeaturesHome from "./src/partials/Features";
+import FeaturesBlocks from "./src/partials/FeaturesBlocks";
+import Testimonials from "./src/partials/Testimonials";
+import Newsletter from "./src/partials/Newsletter";
+import Footer from "./src/partials/Footer";
+import Banner from "./src/partials/Banner";
 
 function Features() {
   return (

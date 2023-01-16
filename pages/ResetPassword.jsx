@@ -1,7 +1,7 @@
 import React from "react";
 
-import Header from "../partials/Header";
-import Banner from "../partials/Banner";
+import Header from "./src/partials/Header";
+import Banner from "./src/partials/Banner";
 
 function ResetPassword() {
   return (
