@@ -137,7 +137,7 @@ function FeaturesBlocks() {
                   data-aos="fade-down"
                 >
                   <img
-                    src="src/images/hariprasad.jpeg"
+                    src={hariprasad}
                     className="h-64 rounded"
                   />
                   <h4 className="text-xl mt-8 font-bold leading-snug tracking-tight mb-1">
@@ -174,7 +174,7 @@ function FeaturesBlocks() {
                 className="relative flex flex-col items-center p-5  rounded shadow-xl border-gray-700 rounded-tl-lg rounded-br-lg border-2"
                 data-aos="fade-down"
               >
-                <img src="src/images/season.jpeg" className="h-64 rounded" />
+                <img src={season} className="h-64 rounded" />
                 <h4 className="text-xl mt-8 font-bold leading-snug tracking-tight mb-1">
                   SEASON CHERIAN
                 </h4>
