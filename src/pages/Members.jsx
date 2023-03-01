@@ -30,6 +30,87 @@ import indraraj from "../images/indraraj.jpeg";
 import nidhin from "../images/nidhin.jpeg";
 import ranit from "../images/ranit.jpeg";
 
+const people = [
+  {
+    name: 'Leslie Alexander',
+    role: 'Co-Founder / CEO',
+    imageUrl:
+      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+  },
+  
+]
+const cofounders = [
+  {
+    name: 'ASHWIN NAMBIAR',
+    role: 'PhD at Purdue University',
+    imageUrl:{ashwinnambiar},
+  },
+  {
+    name: 'HARIPRASAD K V',  
+    role: 'Senior Researcher at Payatu',
+    imageUrl:'./images/hariprasad.jpeg',
+  },
+  {
+    name: 'SEASON CHERIAN',
+    role: 'Cyber Security Consultant',
+    imageUrl:"https://drive.google.com/file/d/1SMvUbf-iqTeg-S7o1rocKR07WxnxWE1D/view?usp=share_link",
+  },
+  
+]
+const fourthyear = [
+  {
+    name: 'ASHWIN NAMBIAR',
+    role: 'PhD at Purdue University',
+    imageUrl:{ashwinnambiar},
+  },
+  {
+    name: 'HARIPRASAD K V',  
+    role: 'Senior Researcher at Payatu',
+    imageUrl:{ashwinnambiar},
+  },
+  {
+    name: 'SEASON CHERIAN',
+    role: 'Cyber Security Consultant',
+    imageUrl:"https://drive.google.com/file/d/1SMvUbf-iqTeg-S7o1rocKR07WxnxWE1D/view?usp=share_link",
+  },
+  
+]
+const thirdyear = [
+  {
+    name: 'ASHWIN NAMBIAR',
+    role: 'PhD at Purdue University',
+    imageUrl:{ashwinnambiar},
+  },
+  {
+    name: 'HARIPRASAD K V',  
+    role: 'Senior Researcher at Payatu',
+    imageUrl:{ashwinnambiar},
+  },
+  {
+    name: 'SEASON CHERIAN',
+    role: 'Cyber Security Consultant',
+    imageUrl:"https://drive.google.com/file/d/1SMvUbf-iqTeg-S7o1rocKR07WxnxWE1D/view?usp=share_link",
+  },
+  
+]
+const secondyears = [
+  {
+    name: 'ASHWIN NAMBIAR',
+    role: 'PhD at Purdue University',
+    imageUrl:{ashwinnambiar},
+  },
+  {
+    name: 'HARIPRASAD K V',  
+    role: 'Senior Researcher at Payatu',
+    imageUrl:{ashwinnambiar},
+  },
+  {
+    name: 'SEASON CHERIAN',
+    role: 'Cyber Security Consultant',
+    imageUrl:"https://drive.google.com/file/d/1SMvUbf-iqTeg-S7o1rocKR07WxnxWE1D/view?usp=share_link",
+  },
+  
+]
 
 
 function FeaturesBlocks() {
@@ -113,56 +194,31 @@ function FeaturesBlocks() {
                 </h2>
               </div>
               {/* Items */}
-              <div className=" mt-28 max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
+              
+              
+            </div>
+            <ul className=" mt-28 max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
                 {/* 1st item */}
+                {cofounders.map((person) => (
+            <li key={person.name}>
                 <div
                   className="relative flex flex-col items-center p-5  rounded shadow-xl border-gray-700 rounded-tl-lg rounded-br-lg border-2 "
                   data-aos="fade-down"
                 >
                   <img
-                    src={ashwinnambiar}
+                    src={person.imageUrl}
                     className="h-64 rounded"
                   />
                   <h4 className="text-xl mt-8 font-bold leading-snug tracking-tight mb-1">
-                    ASHWIN NAMBIAR
+                  {person.name}
                   </h4>
                   <p className="text-gray-600 text-center">
-                    PhD at Purdue University
+                  {person.role}
                   </p>
                 </div>
-
-                {/* 2nd item */}
-                <div
-                  className="relative flex flex-col items-center p-5  rounded shadow-xl border-gray-700 rounded-tl-lg rounded-br-lg border-2"
-                  data-aos="fade-down"
-                >
-                  <img
-                    src={hariprasad}
-                    className="h-64 rounded"
-                  />
-                  <h4 className="text-xl mt-8 font-bold leading-snug tracking-tight mb-1">
-                    HARIPRASAD K V
-                  </h4>
-                  <p className="text-gray-600 text-center">
-                    Senior Researcher at Payatu
-                  </p>
-                </div>
-
-                {/* 3rd item */}
-                <div
-                  className="relative flex flex-col items-center p-5 rounded shadow-xl border-gray-700 rounded-tl-lg rounded-br-lg border-2"
-                  data-aos="fade-down"
-                >
-                  <img src={season} className="h-64 rounded" />
-                  <h4 className="text-xl mt-8 font-bold leading-snug tracking-tight mb-1">
-                    SEASON CHERIAN
-                  </h4>
-                  <p className="text-gray-600 text-center">
-                    Cyber Security Consultant
-                  </p>
-                </div>
-              </div>
-            </div>
+                </li>
+                ))}         
+              </ul>
             <div>
               <h2 className="h2 mt-24 text-center text-white text-3xl ml-4">
                 Mentors
@@ -258,7 +314,7 @@ function FeaturesBlocks() {
             </div>
             <div className=" mt-28 max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
               {/* 2nd item */}
-              <div
+              <divse
                 className="relative flex flex-col items-center p-5  rounded shadow-xl border-gray-700 rounded-tl-lg rounded-br-lg border-2"
                 data-aos="fade-down"
               >
@@ -270,7 +326,7 @@ function FeaturesBlocks() {
                   SREESANKAR S
                 </h4>
                 <p className="text-gray-600 text-center">Hardware Security</p>
-              </div>
+              </divse>
               {/* 1st item */}
               <div
                 className="relative flex flex-col items-center p-6  rounded shadow-xl border-gray-700 rounded-tl-lg rounded-br-lg border-2"
@@ -559,7 +615,32 @@ function FeaturesBlocks() {
               </div>
             </div>
           </div>
+          
         </section>
+        <div className="bg-white py-24 sm:py-32">
+      <div className="mx-auto grid max-w-7xl gap-y-20 gap-x-8 px-6 lg:px-8 xl:grid-cols-3">
+        <div className="max-w-2xl">
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Meet our leadership</h2>
+          <p className="mt-6 text-lg leading-8 text-gray-600">
+            Libero fames augue nisl porttitor nisi, quis. Id ac elit odio vitae elementum enim vitae ullamcorper
+            suspendisse.
+          </p>
+        </div>
+        <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
+          {people.map((person) => (
+            <li key={person.name}>
+              <div className="flex items-center gap-x-6">
+                <img className="h-16 w-16 rounded-full" src={person.imageUrl} alt="" />
+                <div>
+                  <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">{person.name}</h3>
+                  <p className="text-sm font-semibold leading-6 text-indigo-600">{person.role}</p>
+                </div>
+              </div>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
       </main>
 
       <Banner />
